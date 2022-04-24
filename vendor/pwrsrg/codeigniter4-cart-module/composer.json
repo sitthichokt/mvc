@@ -1,0 +1,16 @@
+{
+  "name": "pwrsrg/codeigniter4-cart-module",
+  "type": "library",
+  "description": "A basic port of the codeigniter 3 cart module for CodeIgniter 4.",
+  "homepage": "https://github.com/PwrSrg/CodeIgniter4-Cart-Module",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "codeigniter4/framework": "^4.0.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodeIgniter4Cart\\": "./src"
+    }
+  }
+}
